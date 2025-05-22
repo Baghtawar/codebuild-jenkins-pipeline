@@ -217,7 +217,7 @@ user_data = <<-EOF
               #!/bin/bash
               # Update and install dependencies
               sudo apt update -y
-              sudo apt install -y openjdk-11-jdk curl gnupg2 unzip
+              sudo apt install -y openjdk-17-jdk curl gnupg2 unzip
 
               # Add Jenkins repository and key (updated for 2024+)
               curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee \
